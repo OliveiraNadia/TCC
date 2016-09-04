@@ -13,7 +13,7 @@
           <ul class="nav navbar-nav navbar-right">
             <!--<li><a href="#">Dashboard</a></li>-->
          
-            <li><a href="<?= base_url()?>usuario/cadastro">Cadastrar-se</a></li>
+            <li><a href="#">Cadastrar-se</a></li>
           </ul>
           
         </div>

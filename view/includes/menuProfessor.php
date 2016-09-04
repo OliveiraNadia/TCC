@@ -25,11 +25,11 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-              <li class="active"><a href="<?= base_url() ?>areaProfessor">Área do Professor<span class="sr-only">(current)</span></a></li>
-              <li><a href="<?= base_url() ?>usuario/criarAula">Criar Aulas</a></li>
-              <li><a href="<?= base_url() ?>usuario/minhasAulas">Minhas Aulas</a></li>
-            <!--<li><a href="<?= base_url() ?>usuario">Contas</a></li>-->
-            <li><a href="<?= base_url() ?>inicial/logout">Sair</a></li>
+              <li class="active"><a href="#">Área do Professor<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Criar Aulas</a></li>
+              <li><a href="#">Minhas Aulas</a></li>
+            
+            <li><a href="#">Sair</a></li>
          
           </ul>
           

@@ -25,11 +25,11 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-              <li class="active"><a href="<?= base_url()  ?>inicial">Tela Inicial<span class="sr-only">(current)</span></a></li>
-            <li><a href="<?= base_url() ?>usuario">Usuários</a></li>
-              <li><a href="<?= base_url() ?>usuario/cadastro">Cadastrar Usuários</a></li>
-              <li><a href="<?= base_url() ?>usuario/cadastrarDisciplinas">Cadastrar Disciplinas</a></li>
-              <li><a href="<?= base_url() ?>inicial/logout">Sair</a></li>
+              <li class="active"><a href="#">Tela Inicial<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Usuários</a></li>
+              <li><a href="#">Cadastrar Usuários</a></li>
+              <li><a href="#">Cadastrar Disciplinas</a></li>
+              <li><a href="#">Sair</a></li>
          
           </ul>
           
