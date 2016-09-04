@@ -34,7 +34,7 @@ and open the template in the editor.
               <li><a href="homeProf.php">HOME</a></li>
             <li><a href="#">EXERCÍCIOS</a></li>
             <li><a href="#">DESEMPENHO</a></li>
-            <li><a href="../controllers/logout.php">LOGOUT</a></li>
+            <li><a href="../controller/logout.php">LOGOUT</a></li>
           </ul>
           
         </div>

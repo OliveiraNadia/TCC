@@ -20,7 +20,18 @@
         <input type="password" id="senha" class="form-control" name="senhaUsuarios"placeholder="Senha">
 		
         <button type="submit" class="btn btn-primary" onclick="evento()">Login</button>
-              <button type="submit" class="btn btn-primary">Esqueceu senha</button>
+         <button type="submit" class="btn btn-primary">Esqueceu Senha</button>
+     <!-- Small modal -->
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Esqueceu Senha</button>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>-->
+         </div>   
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -79,8 +90,8 @@
       </div>
         
       <div class="modal-footer">
-           <button type="button" id="conteudo" class="btn btn-primary">Cadastrar</button>
-        <button type="submit" class="btn btn-default" data-dismiss="modal">Sair</button>
+          <button type="submit" id="conteudo" class="btn btn-primary">Enviar</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
        
       </div>
     </div>

@@ -50,7 +50,7 @@
            
             <li><a href="#">EXERCÍCIOS</a></li>
             <li><a href="#">DESEMPENHO</a></li>
-            <li><a href="../controllers/logout.php">LOGOUT</a></li>
+            <li><a href="../controller/logout.php">LOGOUT</a></li>
           </ul>
           
         </div>
