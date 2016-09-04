@@ -1,6 +1,5 @@
 <?php
 session_start();
     session_destroy();
-    header("Location:../view/login.php");
+    header("Location:../../view/home.php");
     
-    ?>

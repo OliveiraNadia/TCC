@@ -26,10 +26,10 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
               <li class="active"><a href="#">Tela Inicial<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Usuários</a></li>
-              <li><a href="#">Cadastrar Usuários</a></li>
-              <li><a href="#">Cadastrar Disciplinas</a></li>
-              <li><a href="#">Sair</a></li>
+              <li><a href="../view/listarUsuario.php">Usuários</a></li>
+            <li><a href="../view/cadastroUsuario.php">Cadastrar Usuários</a></li>
+              <li><a href="../view/cadastrarDisciplinas.php">Cadastrar Disciplinas</a></li>
+              <li><a href="../view/assets/logout.php">Sair</a></li>
          
           </ul>
           

@@ -1,4 +1,5 @@
 <?php include"includes/header.php"; ?>
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -112,4 +113,4 @@
     
     </div> <!-- /container -->
     
-    <?php include"includes/footer.php";  ?>
+    <?php include"includes/footer.php"; ?>
