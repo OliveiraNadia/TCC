@@ -1,6 +1,5 @@
 <?php
-session_start();
-
-$endereco_pg = isset($_SESSION["logado"]) ? "home" : "areaProfessor";
-
-include_once "view/".$endereco_pg.".php";
+/**
+ * Script responsvel por direcionar o usario para a pagina principal.
+ */
+include_once "view/home.php";

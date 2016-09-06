@@ -1,43 +1,7 @@
-var evento = {
-    init: function(){
-      this.bt_enter();  
-    },
+var logar ={
     
-    bt_enter: function(){
-        var me = this;
-        
-        $("#email").keypress(function(e){
-            if(e.which === 13){
-                me.validar();
-            }
-        });
-        
-         $("#senha").keypress(function(e){
-            if(e.which === 13){
-                me.validar();
-            }
-        });
-    },
+    bt_logar: function(){
+      console.log("to aqui");  
     
-    validar: function(){
-        var me    = this,
-            email = $.trim($("#email").val()),
-            senha = $.trim($("#senha").val());
-    
-            if(email !== "" && senha !== ""){
-                $.post("controller/login.php", "&email="+email+"&senha="+senha, function(retorno){
-                    if(retorno === "sucesso"){
-                       $(location).attr("href", "home.php"); 
-                    } else {
-                      alert ("Email ou senha errada");  
-                    }
-                });
-            } else {
-                alert ("Informe o email e a senha");
-            }
     }
-};
-
-$(document).ready(function(){
-    evento.init();
-});
+}
