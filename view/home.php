@@ -18,7 +18,6 @@
     <script src="view/assets/js/script.js"></script>
     <script src="view/assets/js/bootstrap.min.js"></script>
     <script src="view/js/inicial.js"></script>
-     <script src="view/js/login.js"></script>
     <script src="view/assets/js/ie10-viewport-bug-workaround.js"></script>
   </head>
 
@@ -36,13 +35,13 @@
                     <form class="navbar-form navbar-right" method="post" >
                         <div class="form-group">
                             <label for="email" class="sr-only">Email </label>
-                            <input type="email" id="email" class="form-control" name="emailUsuarios" placeholder="Email">
+                            <input type="email" id="email" class="form-control"  placeholder="Email">
 
                             <label for="senha" class="sr-only">Senha</label>
-                            <input type="password" id="senha" class="form-control" name="senhaUsuarios"placeholder="Senha">
+                            <input type="password" id="senha" class="form-control" placeholder="Senha">
 
-                            <button type="submit" class="btn btn-primary" onclick="logar()">Login</button>
-                            <button type="submit" class="btn btn-primary">Esqueceu Senha</button>
+                            <button type="button" class="btn btn-primary" onclick="eventoInicial.bt_logar()">Login</button>
+                            <button type="button" class="btn btn-primary">Esqueceu Senha</button>
                         </div>   
                     </form>
                 </div><!--/.navbar-collapse -->

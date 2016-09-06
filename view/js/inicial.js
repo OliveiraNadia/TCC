@@ -6,6 +6,11 @@ var eventoInicial = {
         });
     },
     
+    bt_logar: function(){
+        // Montar aqui
+        console.log("to aqui");
+    },
+    
     
     bt_enter: function(){
         var me = this;
